@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import include, path  # test3
+from django.urls import include, path  # test4
 
 urlpatterns = [
     path('', include('infra_app.urls', namespace='infra_app')),
